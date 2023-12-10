@@ -1,0 +1,204 @@
+
+body{
+font-family:arial;
+
+}
+
+.sayHello{
+
+  background-color: white;  
+  border-style: solid;  
+  border-color: #7510F7;
+  border-radius: 30px;
+  color: #7510F7;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 120px;
+  
+}
+
+.sayHello:hover{
+background-color: #7510F7;
+color: white;
+font-weight: bold;
+outline: #7510F7
+}
+
+
+.mentorship{
+display: inline-block;
+color: #303030;
+font-weight: bold;
+margin: 4px 2px;
+}
+
+.mentorship:hover{
+display: inline-block;
+color: #7510F7;
+font-weight: bold;
+margin: 4px 2px;
+
+}
+
+
+.Carousel-Left-to-Right{
+width: 320px;
+height: 180px;
+border-style: solid;
+border-color: green;
+border-width: 5px;
+overflow: hidden;
+z-index:1;
+}
+
+
+    
+
+/*---------------------------------  */
+.animationCar4{
+  width: 320px;
+  height: auto;
+  background-color: "red";
+  position: relative;
+  animation-name: animationCarousel4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  
+  } 
+  
+  @keyframes animationCarousel4{
+  0% {left:0px; opacity:1; z-index:0}
+  33% {left:320px; opacity:1; z-index:0}
+  34% {left:320px; opacity:1; z-index:-1}
+  66% {left:-320px; opacity:1; z-index:-1}
+  67% {left:-320px; opacity:1; z-index:0}
+  100% {left:0px; opacity:1; z-index:0}
+  
+  } 
+  
+  .animationCar5{
+  width: 320px;
+  height: auto;
+  background-color: "red";
+  position: relative;
+  animation-name: animationCarousel5;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  }
+  
+  @keyframes animationCarousel5{
+    0% {left:-320px; top:-184px; opacity:1; z-index:0}
+    33% {left:0px; top:-184px; opacity:1; z-index: 0;}
+    34% {left:0px; top:-184px; opacity:1; z-index: 0;}
+    66% {left:320px; top:-184px; opacity:1; z-index: 0;}
+    67% {left:320px; top:-184px; opacity:1; z-index: -1;}
+    100% {left:-320px ;top:-184px; opacity:1; z-index: -1;}
+  
+    }
+  
+  
+    .animationCar6{
+      width: 320px;
+      height: auto;
+      background-color: "red";
+      position: relative;
+      animation-name: animationCarousel6;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      }
+      
+      @keyframes animationCarousel6{
+        0% {left:320px; top:-368px; opacity:1; z-index:-1}
+        33% {left:-320px; top:-368px; opacity:1; z-index: -1;}
+        34% {left:-320px; top:-368px; opacity:1; z-index: 0;}
+        66% {left:0px; top:-368px; opacity:1; z-index: 0;}
+        67% {left:0px; top:-368px; opacity:1; z-index: -1;}
+        100% {left:320px ;top:-368px; opacity:1; z-index: -1;}
+      
+        }
+      
+/*---------------------------------  */
+
+.Carousel-Bottom-to-Top{
+  width: 320px;
+  height: 180px;
+  border-style: solid;
+  border-color: green;
+  border-width: 5px;
+  overflow: hidden;
+  z-index:1;
+  position: relative;
+  }
+
+.animationCar7{
+  width: 320px;
+  height: auto;
+  background-color: "red";
+  position: absolute;
+  animation-name: animationCarousel7;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  
+  } 
+  
+  @keyframes animationCarousel7{
+  0% {bottom:0px; opacity:1; z-index:0}
+  33% {bottom:180px; opacity:1; z-index:0}
+  34% {bottom:180px; opacity:1; z-index:-1}
+  66% {bottom:-180px; opacity:1; z-index:-1}
+  67% {bottom:-180px; opacity:1; z-index:0}
+  100% {bottom:0px; opacity:1; z-index:0}
+  
+  } 
+  
+  .animationCar8{
+  width: 320px;
+  height: auto;
+  background-color: "red";
+  position: absolute;
+  animation-name: animationCarousel8;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  }
+  
+  @keyframes animationCarousel8{
+    0% {left:0px; bottom:-180px; opacity:1; z-index:0}
+    33% {left:0px; bottom:0px; opacity:1; z-index: 0;}
+    34% {left:0px; bottom:0px; opacity:1; z-index: 0;}
+    66% {left:0px; bottom:180px; opacity:1; z-index: 0;}
+    67% {left: 0px; bottom:180px; opacity:1; z-index: -1;}
+    100% {left: 0px ;bottom:-180px; opacity:1; z-index: -1;}
+  
+    }
+    
+    .animationCar9{
+      width: 320px;
+      height: auto;
+      background-color: "red";
+      position: absolute;
+      animation-name: animationCarousel9;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      }
+      
+      @keyframes animationCarousel9{
+        0% {left:0px; bottom:180px; opacity:1; z-index:-1}
+        33% {left:0px; bottom:-180px; opacity:1; z-index: -1;}
+        34% {left:0px; bottom:-180px; opacity:1; z-index: 0;}
+        66% {left:0px; bottom:0px; opacity:1; z-index: 0;}
+        67% {left:0px; bottom:0px; opacity:1; z-index: -1;}
+        100% {left:0px; bottom:180px; opacity:1; z-index: -1;}
+      
+        }
+
+.imagesize{
+width: 320px;
+height: auto;
+}
+
